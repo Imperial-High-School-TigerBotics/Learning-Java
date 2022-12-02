@@ -4,8 +4,8 @@ coding knowledge but it will certainly help having some knowledge.
 
 ## Topics
 We will be covering multiple topics, so here is a short list just describing **SOME** of the topics 
-- Console Output and Input
-- Functions
-- Loops
+- [Console Output and Input](https://github.com/Imperial-High-School-TigerBotics/Learning-Java/tree/main/Lesson1)
+- [Functions](https://github.com/Imperial-High-School-TigerBotics/Learning-Java/tree/main/Lesson1)
+- [Loops](https://github.com/Imperial-High-School-TigerBotics/Learning-Java/tree/main/Lesson1)
 - Classes, Enums and Class Abstraction
-- Basic understanding of how Memory and CPU usage works
+- Basic understanding of how Memory and CPU usage works 
