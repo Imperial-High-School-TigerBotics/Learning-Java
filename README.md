@@ -57,3 +57,5 @@ class HelloWorld {
 }
 ```
 If you happen to have a hard time understanding this code, we suggest you read the code comments. You can identify code comments by looking for the following characters in a row **//** that will initialize a comment. Comments are used to write usefull notes about code.
+
+*To find more of this tutorial please clink the Lesson Title or go to the folder Lesson1 and follow the lesson there*
