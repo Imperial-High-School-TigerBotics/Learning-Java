@@ -78,3 +78,41 @@ So creating a function and running it wasn't so hard after all. Functions are re
 
 **Conclusion:** Functions have a broad use and really can supply to your needs, BUT lets give functions an even greater power up with loops!
 We will now be progressing onto section **3** the final section of **Lesson 1** which is **HelloLoops.java**. Be ready!
+
+## Lesson 1: HelloLoops.java
+Loops in java are a really useful thing and can be used to loop through Lists, Hashmaps and even strings. Loops I feel are part of the very core of programming. If you need to find the highest value in a hashmap you use loops. Anyways lets show you how to use loops in **Java**.
+```java
+class HelloLoops {
+    public static void main(String[] args){
+        // The For Loops -> Prints out the current loop it is on
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Lesson #1 -> " + "For-Loop: " + i);
+        }
+
+        // The While-Do loop
+        // Make n variable
+        int n = 0;
+
+        // Will do as long as the condition is met
+        do {
+            n++;
+        // Essentially the "if" statement of the loop
+        } while (n <= 5);
+
+        // Print out the variable
+        System.out.println("Lesson #1 -> " + "Do-While: " + n);
+
+        // While loop
+        // Make the variable F
+        int F = 0;
+        // Actual Loop
+        while (F < 5) {
+            // Print out the variable
+            System.out.println("Lesson #1 -> " + "While-Loop: " + F);
+            // Iterate the Variable
+            F++;
+        }
+    }
+}
+```
+These loops demonstrate the usefulness of loops in java. Although we didn't loop through any lists we will later but not until we cover lists.
