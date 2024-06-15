@@ -1,4 +1,3 @@
-# Lesson 2
 # Lesson 2: Math in Java
 
 In this lesson, we will explore various mathematical operations and functions available in Java.
