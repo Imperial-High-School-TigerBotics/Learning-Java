@@ -4,7 +4,7 @@ coding knowledge but it will certainly help having some knowledge.
 
 ## Topics
 We will be covering multiple topics, so here is a short list just describing **SOME** of the topics 
-- [Console Output and Input](https://github.com/Imperial-High-School-TigerBotics/Learning-Java/tree/main/Lesson1)
+- [Console Output and Input](https://github.com/Imperial-High-School-TigerBotics/Learning-Java/tree/main/Lesson2)
 - [Functions](https://github.com/Imperial-High-School-TigerBotics/Learning-Java/tree/main/Lesson2)
 - [Loops](https://github.com/Imperial-High-School-TigerBotics/Learning-Java/tree/main/Lesson2)
 - [Math](https://github.com/Imperial-High-School-Tigerbotics/Learning-Java/tree/main/Lesson3)
