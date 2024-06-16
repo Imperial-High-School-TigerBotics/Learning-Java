@@ -1,99 +1,118 @@
-# Lesson 2
-# Lesson 2: Math in Java
+# Lesson 1
+Each lesson may have as many sections as we think are necessary, in this case **Lesson 1** only has **3** sections.
+Coding may seem as a daunting task, but it really isn't. Although it may be really slow at the begining I promise you that it will pick up in
+speed later on as you progress on your coding journey. Well anyways lets get into our first section **Lesson 1: HelloWorld.java**
 
-In this lesson, we will explore various mathematical operations and functions available in Java.
-
-## Arithmetic Operations
-
-Java provides several arithmetic operators that can be used to perform basic mathematical calculations. Here are some examples:
-
-### Addition
-
-The addition operator `+` is used to add two numbers together. For example:
-
+## Lesson 1: HelloWorld.java
+Printing out "Hello World" in Java is fairly simple, although you do need some code called "Boilerplate" to have a basic java program ready to run and here is an example of so called "Boilerplate":
 ```java
-int sum = 5 + 3;
-System.out.println("The sum is: " + sum);
+// Name this class the name of your file, in our case its HelloWorld.
+class HelloWorld {
+    public static void main(String[] args) {
+        
+    }
+}
 ```
-
-### Subtraction
-
-The subtraction operator `-` is used to subtract one number from another. For example:
-
+Now that we have that ready we can move onto the next step which is actually printing out the text to the console. It goes as simply as this:
 ```java
-int difference = 10 - 5;
-System.out.println("The difference is: " + difference);
+// Name this class the name of your file, in our case its HelloWorld.
+class HelloWorld {
+    public static void main(String[] args) {
+        // System.out.println(); Prints to the systems console
+        System.out.println("Hello World");
+    }
+}
 ```
-
-### Multiplication
-
-The multiplication operator `*` is used to multiply two numbers. For example:
-
+Once were done with that we can move onto printing variables, it goes something like this:
 ```java
-int product = 4 * 6;
-System.out.println("The product is: " + product);
+// Name this class the name of your file, in our case its HelloWorld.
+class HelloWorld {
+    public static void main(String[] args) {
+        // Creates a variable that stores the string -> "Goodbye World!"
+        String Goodbye = "Goodbye World!";
+        // Printing the variable Goodbye by refrencing its name.
+        System.out.println(Goodbye);
+        
+        // Although a string variable isn't the only way
+        // to print a variable we must pass a string (prefer to pass a string to prevent errors)
+        // we can also print variables with a simple method shown here
+        
+        // Creating a variable of the type "int"
+        int number = 7;
+        
+        // Converting the number variable into a string
+        System.out.println(String.valueOf(number));
+    }
+}
 ```
+If you happen to have a hard time understanding this code, we suggest you read the code comments. You can identify code comments by looking for the following characters in a row **//** that will initialize a comment. Comments are used to write usefull notes about code.
 
-### Division
+**Conclusion:** Well if you felt like you didn't really learn much feel free to go back to the begining or just play around with the code as you wish!
+We will now be progressing onto section **2** of **Lesson 1** which is **HelloFunctions.java**. Be ready!
 
-The division operator `/` is used to divide one number by another. For example:
-
+## Lesson 1: HelloFunctions.java
+Functions in Java may be daunting as Java tends to have a more bulky [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages)) that confuses newer users, but seems more like a hot cup of coffe once you get to know it, it can burn your tounge if you aren't being careful! So lets start off with making a function that prints a String for us!
 ```java
-int quotient = 20 / 4;
-System.out.println("The quotient is: " + quotient);
+// Name this class the name of your file, in our case its HelloFunctions.
+class HelloFunctions {
+    // This function will shorten the typing
+    // we would need to print to the console
+    
+    // IMPORTANT: the static keyword is VERY important and should not
+    // be used wrongly. In our case since the main function is STATIC
+    // We have to make our "print" function STATIC aswell.
+    // As for the VOID keyword it is just the return value of the function
+    // Since we aren't returning any values we just pass VOID
+    // We will go more into this in Lesson 3
+    public static void print(String string){
+      System.out.println(string);
+    }
+
+    public static void main(String[] args) {
+        // Call the "print" function and pass a String
+        print("Hello World");
+    }
+}
 ```
+So creating a function and running it wasn't so hard after all. Functions are really a great thing for programming, they allow us to organize code better and not have to repeat certain lines over and over again. Functions can take as many arguments as you want, but you have to provide the type they must be. A good naming scheme for functions is using camel case naming convention to name your functions. Lets say I want to make a function called "JumpUp" the proper way to name it would be "jumpUp", this just helps readability of the code and is good practice to do.
 
-### Modulo
+**Conclusion:** Functions have a broad use and really can supply to your needs, BUT lets give functions an even greater power up with loops!
+We will now be progressing onto section **3** the final section of **Lesson 1** which is **HelloLoops.java**. Be ready!
 
-The modulo operator `%` is used to find the remainder of a division operation. For example:
-
+## Lesson 1: HelloLoops.java
+Loops in java are a really useful thing and can be used to loop through Lists, Hashmaps and even strings. Loops I feel are part of the very core of programming. If you need to find the highest value in a hashmap you use loops. Anyways lets show you how to use loops in **Java**.
 ```java
-int remainder = 10 % 3;
-System.out.println("The remainder is: " + remainder);
+class HelloLoops {
+    public static void main(String[] args){
+        // The For Loops -> Prints out the current loop it is on
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Lesson #1 -> " + "For-Loop: " + i);
+        }
+
+        // The While-Do loop
+        // Make n variable
+        int n = 0;
+
+        // Will do as long as the condition is met
+        do {
+            n++;
+        // Essentially the "if" statement of the loop
+        } while (n <= 5);
+
+        // Print out the variable
+        System.out.println("Lesson #1 -> " + "Do-While: " + n);
+
+        // While loop
+        // Make the variable F
+        int F = 0;
+        // Actual Loop
+        while (F < 5) {
+            // Print out the variable
+            System.out.println("Lesson #1 -> " + "While-Loop: " + F);
+            // Iterate the Variable
+            F++;
+        }
+    }
+}
 ```
-
-## Math Functions
-
-Java also provides a `Math` class that contains various mathematical functions. Here are some commonly used functions:
-
-### Square Root
-
-The `Math.sqrt()` function is used to calculate the square root of a number. For example:
-
-```java
-double squareRoot = Math.sqrt(25);
-System.out.println("The square root is: " + squareRoot);
-```
-
-### Power
-
-The `Math.pow()` function is used to calculate the power of a number. For example:
-
-```java
-double power = Math.pow(2, 3);
-System.out.println("2 raised to the power of 3 is: " + power);
-```
-
-### Absolute Value
-
-The `Math.abs()` function is used to calculate the absolute value of a number. For example:
-
-```java
-int absoluteValue = Math.abs(-10);
-System.out.println("The absolute value is: " + absoluteValue);
-```
-
-### Random Number
-
-The `Math.random()` function is used to generate a random number between 0 and 1. For example:
-
-```java
-double randomNumber = Math.random();
-System.out.println("A random number between 0 and 1 is: " + randomNumber);
-```
-
-These are just a few examples of the mathematical operations and functions available in Java. Feel free to explore the Java documentation for more information.
-
-Now that you have learned about arithmetic operations and math functions in Java, you can apply this knowledge to solve various mathematical problems in your programs.
-
-Remember to practice and experiment with different mathematical operations to strengthen your understanding. Good luck!
+These loops demonstrate the usefulness of loops in java. Although we didn't loop through any lists we will later but not until we cover lists.
