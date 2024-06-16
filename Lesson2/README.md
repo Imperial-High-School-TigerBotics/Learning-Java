@@ -1,9 +1,9 @@
-# Lesson 1
-Each lesson may have as many sections as we think are necessary, in this case **Lesson 1** only has **3** sections.
+# Lesson 2
+Each lesson may have as many sections as we think are necessary, in this case **Lesson 2** only has **3** sections.
 Coding may seem as a daunting task, but it really isn't. Although it may be really slow at the begining I promise you that it will pick up in
-speed later on as you progress on your coding journey. Well anyways lets get into our first section **Lesson 1: HelloWorld.java**
+speed later on as you progress on your coding journey. Well anyways lets get into our first section **Lesson 2: HelloWorld.java**
 
-## Lesson 1: HelloWorld.java
+## Lesson 2: HelloWorld.java
 Printing out "Hello World" in Java is fairly simple, although you do need some code called "Boilerplate" to have a basic java program ready to run and here is an example of so called "Boilerplate":
 ```java
 // Name this class the name of your file, in our case its HelloWorld.
