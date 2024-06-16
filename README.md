@@ -11,51 +11,10 @@ We will be covering multiple topics, so here is a short list just describing **S
 - [Importing Packages](https://github.com/Imperial-High-School-Tigerbotics/Learning-Java/tree/main/Lesson3)
 
 ## Why this tutorial?
-This tutorial is made to be able to help students be capable of being able to code for our **First Robotics Team** -> **TigerBotics**.
+This tutorial is made to be able to help students be capable of being able to code for our **First Robotics Team** -> **TigerBotics** along with our various community outreach programs!
 But you can also use this tutorial to learn Java for yourself!
 
-## [Lesson 1: HelloWorld.java](https://github.com/Imperial-High-School-TigerBotics/Learning-Java/tree/main/Lesson1)
-Printing out "Hello World" in Java is fairly simple, although you do need some code called "Boilerplate" to have a basic java program ready to run and here is an example of so called "Boilerplate":
-```java
-// Name this class the name of your file, in our case its HelloWorld.
-class HelloWorld {
-    public static void main(String[] args) {
-        
-    }
-}
-```
-Now that we have that ready we can move onto the next step which is actually printing out the text to the console. It goes as simply as this:
-```java
-// Name this class the name of your file, in our case its HelloWorld.
-class HelloWorld {
-    public static void main(String[] args) {
-        // System.out.println(); Prints to the systems console
-        System.out.println("Hello World");
-    }
-}
-```
-Once were done with that we can move onto printing variables, it goes something like this:
-```java
-// Name this class the name of your file, in our case its HelloWorld.
-class HelloWorld {
-    public static void main(String[] args) {
-        // Creates a variable that stores the string -> "Goodbye World!"
-        String Goodbye = "Goodbye World!";
-        // Printing the variable Goodbye by refrencing its name.
-        System.out.println(Goodbye);
-        
-        // Although a string variable isn't the only way
-        // to print a variable we must pass a string (prefer to pass a string to prevent errors)
-        // we can also print variables with a simple method shown here
-        
-        // Creating a variable of the type "int"
-        int number = 7;
-        
-        // Converting the number variable into a string
-        System.out.println(String.valueOf(number));
-    }
-}
-```
+## Notes
 If you happen to have a hard time understanding this code, we suggest you read the code comments. You can identify code comments by looking for the following characters in a row **//** that will initialize a comment. Comments are used to write usefull notes about code.
 
 *To find more of this tutorial please clink the Lesson Title or go to the folder Lesson1 and follow the lesson there*
