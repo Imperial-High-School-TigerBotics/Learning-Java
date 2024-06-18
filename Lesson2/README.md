@@ -48,7 +48,7 @@ class HelloWorld {
 If you happen to have a hard time understanding this code, we suggest you read the code comments. You can identify code comments by looking for the following characters in a row **//** that will initialize a comment. Comments are used to write usefull notes about code.
 
 **Conclusion:** Well if you felt like you didn't really learn much feel free to go back to the begining or just play around with the code as you wish!
-We will now be progressing onto section **2** of **Lesson 1** which is **HelloFunctions.java**. Be ready!
+We will now be progressing onto section **2** of **Lesson 2** which is **HelloFunctions.java**.
 
 ## Lesson 1: HelloFunctions.java
 Functions in Java may be daunting as Java tends to have a more bulky [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages)) that confuses newer users, but seems more like a hot cup of coffe once you get to know it, it can burn your tounge if you aren't being careful! So lets start off with making a function that prints a String for us!
