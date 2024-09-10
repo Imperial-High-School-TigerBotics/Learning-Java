@@ -1,4 +1,4 @@
-package Lesson2;
+package Lesson1;
 
 public class HelloFunctions {
 

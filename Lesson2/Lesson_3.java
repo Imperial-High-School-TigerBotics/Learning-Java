@@ -1,4 +1,4 @@
-package Lesson3;
+package Lesson2;
 //import java.lang.Math;
 
 public class Lesson_3 {
