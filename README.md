@@ -3,11 +3,11 @@ In this tutorial we will be diving into how Java works and how to write it. Don'
 
 ## Topics
 Here are the topics we cover in our Learning Java course in order. 
-- [Console Output and Input](https://github.com/Imperial-High-School-TigerBotics/Learning-Java/tree/main/Lesson2)
-- [Functions](https://github.com/Imperial-High-School-TigerBotics/Learning-Java/tree/main/Lesson2)
-- [Loops](https://github.com/Imperial-High-School-TigerBotics/Learning-Java/tree/main/Lesson2)
-- [Math](https://github.com/Imperial-High-School-Tigerbotics/Learning-Java/tree/main/Lesson3)
-- [Importing Packages](https://github.com/Imperial-High-School-Tigerbotics/Learning-Java/tree/main/Lesson3)
+- [Console Output and Input](https://github.com/Imperial-High-School-TigerBotics/Learning-Java/tree/main/Lesson1)
+- [Functions](https://github.com/Imperial-High-School-TigerBotics/Learning-Java/tree/main/Lesson1)
+- [Loops](https://github.com/Imperial-High-School-TigerBotics/Learning-Java/tree/main/Lesson1)
+- [Math](https://github.com/Imperial-High-School-Tigerbotics/Learning-Java/tree/main/Lesson2)
+- [Importing Packages](https://github.com/Imperial-High-School-Tigerbotics/Learning-Java/tree/main/Lesson2)
 
 ## Why this tutorial?
 This tutorial is made to be able to help students be capable of being able to code for our **First Robotics Team** -> **TigerBotics** along with our various community outreach programs!
