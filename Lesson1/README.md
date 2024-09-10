@@ -1,9 +1,9 @@
 # Lesson 1
-Each lesson may have as many sections as we think are necessary, in this case **Lesson 2** only has **3** sections.
+Each lesson may have as many sections as we think are necessary, in this case **Lesson 1** only has **3** sections.
 Coding may seem as a daunting task, but it really isn't. Although it may be really slow at the begining I promise you that it will pick up in
-speed later on as you progress on your coding journey. Well anyways lets get into our first section **Lesson 2: HelloWorld.java**
+speed later on as you progress on your coding journey. Well anyways lets get into our first section **Lesson 1: HelloWorld.java**
 
-## Lesson 2: HelloWorld.java
+## Lesson 1: HelloWorld.java
 Printing out "Hello World" in Java is fairly simple, although you do need some code called "Boilerplate" to have a basic java program ready to run and here is an example of so called "Boilerplate":
 ```java
 // Name this class the name of your file, in our case its HelloWorld.
@@ -48,7 +48,7 @@ class HelloWorld {
 If you happen to have a hard time understanding this code, we suggest you read the code comments. You can identify code comments by looking for the following characters in a row **//** that will initialize a comment. Comments are used to write usefull notes about code.
 
 **Conclusion:** Well if you felt like you didn't really learn much feel free to go back to the begining or just play around with the code as you wish!
-We will now be progressing onto section **2** of **Lesson 2** which is **HelloFunctions.java**.
+We will now be progressing onto section **2** of **Lesson 1** which is **HelloFunctions.java**.
 
 ## Simple Variable Types in Java
 
