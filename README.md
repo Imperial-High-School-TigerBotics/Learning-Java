@@ -14,7 +14,7 @@ This tutorial is made to be able to help students be capable of being able to co
 But you can also use this tutorial to learn Java for yourself!
 
 ## Get Started!! 
-To get started here is our [first lesson](https:github.com/Imperial-High-School-Tigerbotics/Learning-Java/tree/main/Lesson1), above are our topics in order and some lessons tackle multiple topics so if you keep clicking into a topic and get directed to the same lesson thats where you are supposed to be!
+To get started here is our [first lesson](https://github.com/Imperial-High-School-TigerBotics/Learning-Java/tree/main/Lesson1), above are our topics in order and some lessons tackle multiple topics so if you keep clicking into a topic and get directed to the same lesson thats where you are supposed to be!
 
 ## Notes
 If you happen to have a hard time understanding the code, we suggest you read the code comments. You can identify code comments by looking for the following characters in a row **//** that will initialize a comment. Comments are used to write usefull notes about code.
