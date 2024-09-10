@@ -1,7 +1,7 @@
 package Lesson2;
 //import java.lang.Math;
 
-public class Lesson_3 {
+public class Lesson_2 {
     public static void main(String[] args) {
         int sum = 5 + 3;
         System.out.println("The sum is: " + sum);
