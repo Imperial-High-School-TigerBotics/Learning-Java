@@ -1,4 +1,4 @@
-# Lesson 2
+# Lesson 1
 Each lesson may have as many sections as we think are necessary, in this case **Lesson 2** only has **3** sections.
 Coding may seem as a daunting task, but it really isn't. Although it may be really slow at the begining I promise you that it will pick up in
 speed later on as you progress on your coding journey. Well anyways lets get into our first section **Lesson 2: HelloWorld.java**
