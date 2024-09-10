@@ -50,6 +50,47 @@ If you happen to have a hard time understanding this code, we suggest you read t
 **Conclusion:** Well if you felt like you didn't really learn much feel free to go back to the begining or just play around with the code as you wish!
 We will now be progressing onto section **2** of **Lesson 2** which is **HelloFunctions.java**.
 
+## Simple Variable Types in Java
+
+In Java, there are several basic variable types that you will frequently use. Here are some of the most common ones:
+
+### String
+A `String` is a sequence of characters. It is used to store text.
+```java
+String greeting = "Hello, World!";
+System.out.println(greeting);
+```
+
+### char
+A `char` is a single 16-bit Unicode character. It is used to store individual characters.
+```java
+char initial = 'A';
+System.out.println(initial);
+```
+
+### int
+An `int` is a 32-bit signed integer. It is used to store whole numbers.
+```java
+int age = 25;
+System.out.println(age);
+```
+
+### double
+A `double` is a double-precision 64-bit IEEE 754 floating point. It is used to store decimal numbers.
+```java
+double price = 19.99;
+System.out.println(price);
+```
+
+### float
+A `float` is a single-precision 32-bit IEEE 754 floating point. It is also used to store decimal numbers but with less precision than `double`.
+```java
+float temperature = 36.6f;
+System.out.println(temperature);
+```
+
+These are some of the basic variable types in Java. Understanding these will help you manage and manipulate data effectively in your programs.
+
 ## Lesson 1: HelloFunctions.java
 Functions in Java may be daunting as Java tends to have a more bulky [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages)) that confuses newer users, but seems more like a hot cup of coffe once you get to know it, it can burn your tounge if you aren't being careful! So lets start off with making a function that prints a String for us!
 ```java
