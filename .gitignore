@@ -1,0 +1,13 @@
+# Java compiled output
+*.class
+
+# Common build output folders
+bin/
+out/
+
+# IDE / OS noise (optional but common)
+.DS_Store
+Thumbs.db
+
+# VS Code settings (keep if you want shared settings)
+.vscode/
