@@ -50,6 +50,15 @@ The modulo operator `%` is used to find the remainder of a division operation. F
 int remainder = 10 % 3;
 System.out.println("The remainder is: " + remainder);
 ```
+
+### Integer vs Double Division
+One common "gotcha" is that `int / int` does **integer division** (it drops the decimal part).
+```java
+int a = 7 / 2;      // 3
+double b = 7.0 / 2; // 3.5
+System.out.println(a);
+System.out.println(b);
+```
 ## Class Importing
 
 In Java, class importing allows you to use classes from other packages in your program. By importing a class, you can access its methods and variables without having to specify the full package name every time.
@@ -104,6 +113,11 @@ The `Math` class provides additional mathematical functions that you can use in 
 - `Math.abs(int x)`: Calculates the absolute value of a number.
 - `Math.random()`: Generates a random number between 0 and 1.
 
+You will also commonly use:
+- `Math.round(double x)`: Rounds to the nearest long.
+- `Math.floor(double x)`: Rounds down.
+- `Math.ceil(double x)`: Rounds up.
+
 These are just a few examples of the mathematical functions available in the `Math` class. You can explore the Java documentation for more information on other functions.
 
 Remember to import the necessary classes and use the appropriate methods to perform mathematical operations in your Java programs.
@@ -144,8 +158,21 @@ double randomNumber = Math.random();
 System.out.println("A random number between 0 and 1 is: " + randomNumber);
 ```
 
+To get a random **integer** in a range `[min, max]`:
+```java
+int min = 1;
+int max = 6;
+int roll = (int)(Math.random() * (max - min + 1)) + min;
+System.out.println(roll);
+```
+
 These are just a few examples of the mathematical operations and functions available in Java. Feel free to explore the Java documentation for more information.
 
 Now that you have learned about arithmetic operations and math functions in Java, you can apply this knowledge to solve various mathematical problems in your programs.
 
 Remember to practice and experiment with different mathematical operations to strengthen your understanding. Good luck!
+
+## Practice (optional)
+- Make a program that asks for 2 numbers and prints their average.
+- Make a "dice" program that rolls 2 dice (1–6) and prints the sum.
+- Ask for a radius and print the area of a circle using `Math.PI`.

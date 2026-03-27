@@ -4,44 +4,46 @@ Coding may seem as a daunting task, but it really isn't. Although it may be real
 speed later on as you progress on your coding journey. Well anyways lets get into our first section **Lesson 1: HelloWorld.java**
 
 ## Lesson 1: HelloWorld.java
-Printing out "Hello World" in Java is fairly simple, although you do need some code called "Boilerplate" to have a basic java program ready to run and here is an example of so called "Boilerplate":
+Printing out "Hello World" in Java is fairly simple, although you do need some code called "Boilerplate" to have a basic java program ready to run.
+
+In this repository, each lesson folder uses a Java `package` (ex: `package Lesson1;`). That means your file and folder names should match the package name.
+
+Here is the basic structure we use:
 ```java
-// Name this class the name of your file, in our case its HelloWorld.
-class HelloWorld {
-    public static void main(String[] args) {
-        
+package Lesson1;
+
+public class HelloWorld {
+    public HelloWorld() {
+        // code runs when we create: new HelloWorld();
     }
 }
 ```
-Now that we have that ready we can move onto the next step which is actually printing out the text to the console. It goes as simply as this:
+
+Now that we have that ready we can move onto the next step which is actually printing out the text to the console:
 ```java
-// Name this class the name of your file, in our case its HelloWorld.
-class HelloWorld {
-    public static void main(String[] args) {
-        // System.out.println(); Prints to the systems console
-        System.out.println("Hello World");
+package Lesson1;
+
+public class HelloWorld {
+    public HelloWorld() {
+        // System.out.println(); prints to the console
+        System.out.println("Lesson #1 -> Hello World");
     }
 }
 ```
 Once were done with that we can move onto printing variables, it goes something like this:
 ```java
-// Name this class the name of your file, in our case its HelloWorld.
-class HelloWorld {
-    public static void main(String[] args) {
+package Lesson1;
+
+public class HelloWorld {
+    public HelloWorld() {
         // Creates a variable that stores the string -> "Goodbye World!"
-        String Goodbye = "Goodbye World!";
-        // Printing the variable Goodbye by refrencing its name.
-        System.out.println(Goodbye);
-        
-        // Although a string variable isn't the only way
-        // to print a variable we must pass a string (prefer to pass a string to prevent errors)
-        // we can also print variables with a simple method shown here
-        
-        // Creating a variable of the type "int"
+        String goodbye = "Lesson #1 -> Goodbye World!";
+        System.out.println(goodbye);
+
+        // Creating a variable of the type int
         int number = 7;
-        
-        // Converting the number variable into a string
-        System.out.println(String.valueOf(number));
+        // Java can print ints directly
+        System.out.println("Lesson #1 -> number is " + number);
     }
 }
 ```
@@ -93,25 +95,18 @@ These are some of the basic variable types in Java. Understanding these will hel
 
 ## Lesson 1: HelloFunctions.java
 Functions in Java may be daunting as Java tends to have a more bulky [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages)) that confuses newer users, but seems more like a hot cup of coffe once you get to know it, it can burn your tounge if you aren't being careful! So lets start off with making a function that prints a String for us!
+In this repository, `HelloFunctions` is written as a class you *create* from `Lesson_1`.
 ```java
-// Name this class the name of your file, in our case its HelloFunctions.
-class HelloFunctions {
-    // This function will shorten the typing
-    // we would need to print to the console
-    
-    // IMPORTANT: the static keyword is VERY important and should not
-    // be used wrongly. In our case since the main function is STATIC
-    // We have to make our "print" function STATIC aswell.
-    // As for the VOID keyword it is just the return value of the function
-    // Since we aren't returning any values we just pass VOID
-    // We will go more into this in Lesson 3
-    public static void print(String string){
-      System.out.println(string);
+package Lesson1;
+
+public class HelloFunctions {
+
+    public HelloFunctions(String message){
+        say(message);
     }
 
-    public static void main(String[] args) {
-        // Call the "print" function and pass a String
-        print("Hello World");
+    public void say(String sentence) {
+        System.out.println("Lesson #1 -> " + sentence);
     }
 }
 ```
@@ -123,37 +118,31 @@ We will now be progressing onto section **3** the final section of **Lesson 1** 
 ## Lesson 1: HelloLoops.java
 Loops in java are a really useful thing and can be used to loop through Lists, Hashmaps and even strings. Loops I feel are part of the very core of programming. If you need to find the highest value in a hashmap you use loops. Anyways lets show you how to use loops in **Java**.
 ```java
-class HelloLoops {
-    public static void main(String[] args){
-        // The For Loops -> Prints out the current loop it is on
+package Lesson1;
+
+public class HelloLoops {
+    public HelloLoops(){
         for (int i = 0; i < 5; i++) {
-            System.out.println("Lesson #1 -> " + "For-Loop: " + i);
+            System.out.println("Lesson #1 -> For-Loop: " + i);
         }
 
-        // The While-Do loop
-        // Make n variable
         int n = 0;
-
-        // Will do as long as the condition is met
         do {
             n++;
-        // Essentially the "if" statement of the loop
         } while (n <= 5);
+        System.out.println("Lesson #1 -> Do-While: " + n);
 
-        // Print out the variable
-        System.out.println("Lesson #1 -> " + "Do-While: " + n);
-
-        // While loop
-        // Make the variable F
-        int F = 0;
-        // Actual Loop
-        while (F < 5) {
-            // Print out the variable
-            System.out.println("Lesson #1 -> " + "While-Loop: " + F);
-            // Iterate the Variable
-            F++;
+        int f = 0;
+        while (f < 5) {
+            System.out.println("Lesson #1 -> While-Loop: " + f);
+            f++;
         }
     }
 }
 ```
 These loops demonstrate the usefulness of loops in java. Although we didn't loop through any lists we will later but not until we cover lists.
+
+## Practice (optional)
+- In `HelloWorld`, make a `double` and print it.
+- In `HelloFunctions`, add a method that returns the length of the message.
+- In `HelloLoops`, change the loops to count down from 5 to 1.
